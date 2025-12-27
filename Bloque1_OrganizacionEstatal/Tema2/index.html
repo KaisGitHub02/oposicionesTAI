@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Las Cortes Generales - TAI</title>
+  <style>
+    .correcta {
+      color: green;
+      font-weight: bold;
+    }
+    .incorrecta {
+      color: red;
+      font-weight: bold;
+    }
+    .feedback {
+      margin-top: 4px;
+      font-size: 0.9em;
+    }
+    #resultado {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Test Las Cortes Generales</h1>
+  <p><strong>Instrucciones:</strong> 20 preguntas tipo test. Una sola respuesta correcta por pregunta. Por cada 3 respuestas erróneas se restará el valor de 1 respuesta correcta.</p>
+
+  <ol>
+    <li data-correct="1">
+      Según la Constitución, las Cortes Generales representan:
+      <br>
+      <label><input type="radio" name="q1" value="0"> A las Comunidades Autónomas.</label><br>
+      <label><input type="radio" name="q1" value="1"> Al pueblo español.</label><br>
+      <label><input type="radio" name="q1" value="2"> Exclusivamente a los electores del Congreso.</label><br>
+      <label><input type="radio" name="q1" value="3"> A la Nación y al Rey conjuntamente.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="2">
+      ¿Cuál de las siguientes NO es una función atribuida a las Cortes Generales?
+      <br>
+      <label><input type="radio" name="q2" value="0"> Ejercer la potestad legislativa del Estado.</label><br>
+      <label><input type="radio" name="q2" value="1"> Aprobar los Presupuestos Generales del Estado.</label><br>
+      <label><input type="radio" name="q2" value="2"> Dirigir la política interior y exterior.</label><br>
+      <label><input type="radio" name="q2" value="3"> Controlar la acción del Gobierno.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      Señale la afirmación correcta sobre el bicameralismo español:
+      <br>
+      <label><input type="radio" name="q3" value="0"> El Senado tiene siempre la última palabra en el procedimiento legislativo.</label><br>
+      <label><input type="radio" name="q3" value="1"> El Congreso y el Senado ejercen conjuntamente las funciones propias de las Cortes Generales, aunque con predominio del Congreso.</label><br>
+      <label><input type="radio" name="q3" value="2"> Cada Cámara puede ejercer la potestad legislativa de manera totalmente independiente de la otra.</label><br>
+      <label><input type="radio" name="q3" value="3"> Las Cortes Generales se identifican exclusivamente con el Congreso de los Diputados.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      El Senado se define principalmente como:
+      <br>
+      <label><input type="radio" name="q4" value="0"> Cámara de representación profesional.</label><br>
+      <label><input type="radio" name="q4" value="1"> Cámara de representación territorial.</label><br>
+      <label><input type="radio" name="q4" value="2"> Cámara de representación corporativa.</label><br>
+      <label><input type="radio" name="q4" value="3"> Cámara consultiva del Gobierno.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      ¿Cuál de las siguientes funciones corresponde en exclusiva al Congreso de los Diputados?
+      <br>
+      <label><input type="radio" name="q5" value="0"> Aprobación definitiva de todos los proyectos de ley sin intervención del Senado.</label><br>
+      <label><input type="radio" name="q5" value="1"> Otorgar o retirar la confianza al Gobierno, mediante la investidura o la moción de censura.</label><br>
+      <label><input type="radio" name="q5" value="2"> Designar senadores autonómicos.</label><br>
+      <label><input type="radio" name="q5" value="3"> Aprobar los Estatutos de Autonomía en primera lectura.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      La Mesa de cada Cámara:
+      <br>
+      <label><input type="radio" name="q6" value="0"> Está integrada solo por el Presidente de la Cámara.</label><br>
+      <label><input type="radio" name="q6" value="1"> Se compone de Presidente, Vicepresidentes y Secretarios, y dirige la organización interna y los trabajos parlamentarios.</label><br>
+      <label><input type="radio" name="q6" value="2"> Es elegida por el Rey a propuesta de los grupos mayoritarios.</label><br>
+      <label><input type="radio" name="q6" value="3"> Solo interviene en materias de disciplina parlamentaria.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="2">
+      Los Grupos Parlamentarios:
+      <br>
+      <label><input type="radio" name="q7" value="0"> Coinciden siempre con los partidos políticos existentes en el sistema.</label><br>
+      <label><input type="radio" name="q7" value="1"> Son órganos externos a las Cámaras.</label><br>
+      <label><input type="radio" name="q7" value="2"> Canalizan la actividad política de los diputados y senadores, influyen en las comisiones y en los tiempos de intervención.</label><br>
+      <label><input type="radio" name="q7" value="3"> Pueden disolver el Pleno por mayoría absoluta.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="2">
+      ¿Qué tipo de comisión puede ejercer la competencia legislativa plena por delegación del Pleno?
+      <br>
+      <label><input type="radio" name="q8" value="0"> Solo las comisiones de investigación.</label><br>
+      <label><input type="radio" name="q8" value="1"> Solo las comisiones especiales.</label><br>
+      <label><input type="radio" name="q8" value="2"> Las comisiones permanentes legislativas, cuando así lo acuerden las Cámaras.</label><br>
+      <label><input type="radio" name="q8" value="3"> Ninguna comisión puede ejercer competencia legislativa plena.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      La iniciativa legislativa corresponde, entre otros, a:
+      <br>
+      <label><input type="radio" name="q9" value="0"> Exclusivamente al Gobierno.</label><br>
+      <label><input type="radio" name="q9" value="1"> El Gobierno, el Congreso, el Senado, las Asambleas de las Comunidades Autónomas y la iniciativa legislativa popular en determinados casos.</label><br>
+      <label><input type="radio" name="q9" value="2"> Solo al Congreso de los Diputados.</label><br>
+      <label><input type="radio" name="q9" value="3"> Los Tribunales y el Tribunal Constitucional.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="2">
+      En el procedimiento legislativo ordinario, los proyectos de ley:
+      <br>
+      <label><input type="radio" name="q10" value="0"> Se inician siempre en el Senado.</label><br>
+      <label><input type="radio" name="q10" value="1"> Se tramitan siempre simultáneamente en ambas Cámaras.</label><br>
+      <label><input type="radio" name="q10" value="2"> Se tramitan normalmente en primer lugar en el Congreso, que los remite posteriormente al Senado.</label><br>
+      <label><input type="radio" name="q10" value="3"> Se aprueban por decreto del Gobierno sin participación de las Cámaras.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="2">
+      Las leyes orgánicas requieren:
+      <br>
+      <label><input type="radio" name="q11" value="0"> Mayoría simple del Congreso y del Senado.</label><br>
+      <label><input type="radio" name="q11" value="1"> Aprobación por referéndum obligatorio.</label><br>
+      <label><input type="radio" name="q11" value="2"> Mayoría absoluta del Congreso en una votación final sobre el conjunto del texto.</label><br>
+      <label><input type="radio" name="q11" value="3"> Mayoría de tres quintos en ambas Cámaras.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="3">
+      El control político del Gobierno por parte de las Cortes NO incluye:
+      <br>
+      <label><input type="radio" name="q12" value="0"> Preguntas e interpelaciones.</label><br>
+      <label><input type="radio" name="q12" value="1"> Comisiones de investigación.</label><br>
+      <label><input type="radio" name="q12" value="2"> Moción de censura.</label><br>
+      <label><input type="radio" name="q12" value="3"> Destitución directa de jueces y magistrados.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="2">
+      La moción de censura en el Congreso se caracteriza por:
+      <br>
+      <label><input type="radio" name="q13" value="0"> Ser no constructiva, sin necesidad de proponer candidato alternativo.</label><br>
+      <label><input type="radio" name="q13" value="1"> Requerir mayoría simple de los miembros presentes.</label><br>
+      <label><input type="radio" name="q13" value="2"> Ser constructiva y exigir la propuesta de un candidato a la Presidencia del Gobierno.</label><br>
+      <label><input type="radio" name="q13" value="3"> Necesitar aprobación previa del Senado.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      La cuestión de confianza:
+      <br>
+      <label><input type="radio" name="q14" value="0"> La plantean los grupos parlamentarios ante el Senado.</label><br>
+      <label><input type="radio" name="q14" value="1"> La plantea el Presidente del Gobierno ante el Congreso, sobre su programa o declaración de política general.</label><br>
+      <label><input type="radio" name="q14" value="2"> Solo puede referirse a una ley concreta.</label><br>
+      <label><input type="radio" name="q14" value="3"> Debe ser aprobada por mayoría absoluta.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      Cuando el Senado formula un veto a un proyecto de ley:
+      <br>
+      <label><input type="radio" name="q15" value="0"> El proyecto queda definitivamente rechazado.</label><br>
+      <label><input type="radio" name="q15" value="1"> El Congreso puede levantar el veto por mayoría absoluta o, tras cierto plazo, por mayoría simple.</label><br>
+      <label><input type="radio" name="q15" value="2"> Debe convocarse un referéndum para decidir.</label><br>
+      <label><input type="radio" name="q15" value="3"> El veto se convierte automáticamente en enmienda.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      En relación con los Presupuestos Generales del Estado, señale la opción correcta:
+      <br>
+      <label><input type="radio" name="q16" value="0"> Tienen el mismo trámite que cualquier ley ordinaria sin especialidades.</label><br>
+      <label><input type="radio" name="q16" value="1"> Deben aprobarse anualmente por las Cortes Generales en los términos previstos en la Constitución.</label><br>
+      <label><input type="radio" name="q16" value="2"> Los aprueba directamente el Gobierno y se limita a informar a las Cámaras.</label><br>
+      <label><input type="radio" name="q16" value="3"> Se aprueban exclusivamente en el Senado.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      ¿Cuál de las siguientes materias está reservada a ley orgánica?
+      <br>
+      <label><input type="radio" name="q17" value="0"> Regulación de las tasas municipales.</label><br>
+      <label><input type="radio" name="q17" value="1"> Desarrollo de derechos fundamentales y libertades públicas.</label><br>
+      <label><input type="radio" name="q17" value="2"> Presupuestos Generales del Estado.</label><br>
+      <label><input type="radio" name="q17" value="3"> Creación de comisiones parlamentarias.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="2">
+      Las comisiones de investigación:
+      <br>
+      <label><input type="radio" name="q18" value="0"> Tienen potestad jurisdiccional plena.</label><br>
+      <label><input type="radio" name="q18" value="1"> Solo pueden crearse en el Senado.</label><br>
+      <label><input type="radio" name="q18" value="2"> Pueden ser creadas por el Congreso, el Senado o conjuntamente, y sus conclusiones no vinculan a los tribunales.</label><br>
+      <label><input type="radio" name="q18" value="3"> Siempre sesionan a puerta cerrada.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="1">
+      En el ámbito territorial, el Senado interviene de forma destacada en:
+      <br>
+      <label><input type="radio" name="q19" value="0"> La designación del Presidente del Tribunal Constitucional.</label><br>
+      <label><input type="radio" name="q19" value="1"> La aplicación del artículo 155 de la Constitución, que requiere su autorización.</label><br>
+      <label><input type="radio" name="q19" value="2"> La aprobación de todas las leyes orgánicas.</label><br>
+      <label><input type="radio" name="q19" value="3"> La disolución de las Asambleas autonómicas.</label>
+      <div class="feedback"></div>
+    </li>
+
+    <li data-correct="2">
+      El carácter permanente e inviolable de las Cortes Generales significa que:
+      <br>
+      <label><input type="radio" name="q20" value="0"> Pueden ser suspendidas indefinidamente por el Gobierno.</label><br>
+      <label><input type="radio" name="q20" value="1"> Sus sesiones solo pueden celebrarse con autorización judicial.</label><br>
+      <label><input type="radio" name="q20" value="2"> No pueden ser perseguidas por los actos realizados en ejercicio de sus funciones constitucionales.</label><br>
+      <label><input type="radio" name="q20" value="3"> Únicamente sesionan durante los periodos de campaña electoral.</label>
+      <div class="feedback"></div>
+    </li>
+  </ol>
+
+  <button id="comprobar">Comprobar</button>
+
+  <div id="resultado"></div>
+
+  <script>
+    function comprobarTest() {
+      const preguntas = document.querySelectorAll("ol > li");
+      let aciertos = 0;
+      let fallos = 0;
+      const total = preguntas.length;
+
+      preguntas.forEach((li, index) => {
+        const correctaIndex = li.getAttribute("data-correct");
+        const opciones = li.querySelectorAll("input[type=radio]");
+        const feedback = li.querySelector(".feedback");
+
+        // limpiar estilos previos
+        opciones.forEach(o => {
+          o.parentElement.classList.remove("correcta", "incorrecta");
+        });
+        feedback.textContent = "";
+
+        let seleccion = null;
+        opciones.forEach((opcion, i) => {
+          if (opcion.checked) {
+            seleccion = i.toString();
+          }
+        });
+
+        const textoCorrecta = opciones[correctaIndex].parentElement.textContent.trim();
+
+        if (seleccion === null) {
+          feedback.textContent = "No has respondido. La correcta es: " + textoCorrecta;
+          feedback.className = "feedback incorrecta";
+          opciones[correctaIndex].parentElement.classList.add("correcta");
+        } else if (seleccion === correctaIndex) {
+          aciertos++;
+          opciones[correctaIndex].parentElement.classList.add("correcta");
+          feedback.textContent = "Respuesta correcta.";
+          feedback.className = "feedback correcta";
+        } else {
+          fallos++;
+          opciones[seleccion].parentElement.classList.add("incorrecta");
+          opciones[correctaIndex].parentElement.classList.add("correcta");
+          feedback.textContent = "Respuesta incorrecta. La correcta es: " + textoCorrecta;
+          feedback.className = "feedback incorrecta";
+        }
+      });
+
+      const porcentajeAciertos = ((aciertos / total) * 100).toFixed(2);
+      const porcentajeFallos = ((fallos / total) * 100).toFixed(2);
+
+      const penalizacion = Math.floor(fallos / 3);
+      let notaFinal = aciertos - penalizacion;
+      if (notaFinal < 0) notaFinal = 0;
+
+      const resultadoDiv = document.getElementById("resultado");
+      resultadoDiv.innerHTML = `
+        <p><strong>Resultados:</strong></p>
+        <ul>
+          <li>Aciertos: ${aciertos} de ${total} (${porcentajeAciertos}%).</li>
+          <li>Fallos: ${fallos} de ${total} (${porcentajeFallos}%).</li>
+          <li>Penalización: -${penalizacion} punto(s) por ${fallos} fallo(s).</li>
+          <li>Nota final (con penalización): ${notaFinal} / ${total}.</li>
+        </ul>
+      `;
+    }
+
+    document.getElementById("comprobar").addEventListener("click", comprobarTest);
+  </script>
+</body>
+</html>
